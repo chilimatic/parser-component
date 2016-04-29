@@ -11,8 +11,8 @@
     }
   ],
   "require": {
-    "chilimatic/interfaces-component" : "dev-master",
-    "chilimatic/interpreter-component" : "dev-master"
+    "chilimatic/interfaces-component" : "1.*",
+    "chilimatic/interpreter-component" : "1.*"
   },
   "require-dev": {
     "phpunit/phpunit": "4.8.*"

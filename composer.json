@@ -1,0 +1,29 @@
+{
+  "name": "chilimatic/parser-component",
+  "description": "parser component within the chilimatic framework",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jakob Oberhummer",
+      "email": "office@chilimatic.com"
+    }
+  ],
+  "require": {
+    "chilimatic/interfaces-component" : "dev-master",
+    "chilimatic/interpreter-component" : "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.3.*"
+  },
+  "config": {
+    "bin-dir": "bin/",
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "chilimatic\\lib\\Parser\\": "src/"
+    }
+  }
+}

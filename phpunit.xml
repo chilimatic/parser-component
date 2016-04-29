@@ -1,0 +1,7 @@
+<phpunit bootstrap="./test/bootstrap.php">
+    <testsuites>
+        <testsuite name="parser">
+            <directory>./test/Annotation</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

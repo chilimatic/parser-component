@@ -70,7 +70,7 @@ class AnnotationValidatorParser implements IFlyWeightParser
      *
      * @return array
      */
-    public function parse($content)
+    public function parse(string $content) : array
     {
         if (!$content) {
             return [];

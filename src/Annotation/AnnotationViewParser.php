@@ -38,7 +38,7 @@ class AnnotationViewParser implements IFlyWeightParser
      *
      * @return array
      */
-    public function parse($content)
+    public function parse(string $content) : array
     {
         if (!$content || strpos($content, '@view') === false) {
             return [];

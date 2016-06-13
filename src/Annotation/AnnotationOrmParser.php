@@ -19,9 +19,9 @@ class AnnotationOrmParser implements IFlyWeightParser
      *
      * @return null|array
      */
-    public function parse($content)
+    public function parse(string $content) : array
     {
-        $set = null;
+        $set = [];
         if (strpos($content, '@ORM') === false) {
             return $set;
         }

@@ -34,7 +34,7 @@ class AnnotationOdmParser implements IFlyWeightParser
      *
      * @return array
      */
-    public function parse($content)
+    public function parse(string $content) : array
     {
         $map = [];
 

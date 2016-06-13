@@ -47,7 +47,7 @@ class AnnotationOrmParserTest extends PHPUnit_Framework_TestCase
         $parser = new AnnotationOrmParser();
         $returnValue = $parser->parse($this->invalidDocProvider());
 
-        self::assertNull($returnValue);
+        self::assertEquals([], $returnValue);
     }
 
     /**
